@@ -54,6 +54,7 @@ var Extensions = []string{
 	"reva-storage-home-data",
 	"reva-storage-oc",
 	"reva-storage-oc-data",
+	"konnectd",
 }
 
 // Runtime is a micro' runtime

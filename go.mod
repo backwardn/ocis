@@ -14,14 +14,13 @@ require (
 	github.com/micro/go-micro v1.18.0
 	github.com/micro/micro v1.18.0
 	github.com/nats-io/jwt v0.3.2 // indirect
-	github.com/onsi/ginkgo v1.10.3 // indirect
 	github.com/openzipkin/zipkin-go v0.2.2
 	github.com/owncloud/ocis-graph v0.0.0-20191227120927-91e17d0cdeb1
 	github.com/owncloud/ocis-hello v0.0.0-20200114093148-2205c2745838
 	github.com/owncloud/ocis-konnectd v0.0.0-20191227185917-046fec203337
 	github.com/owncloud/ocis-ocs v0.0.0-20191224113758-20455a2e9013
 	github.com/owncloud/ocis-phoenix v0.0.0-20200117144648-bebce0e7bbdb
-	github.com/owncloud/ocis-pkg v1.2.1-0.20200115112437-3dd614fdcd51
+	github.com/owncloud/ocis-pkg v1.3.0
 	github.com/owncloud/ocis-reva v0.0.0-20200117123740-1df7dd421513
 	github.com/owncloud/ocis-webdav v0.0.0-20191227185841-c5c77e241249
 	github.com/spf13/viper v1.6.1
@@ -31,3 +30,5 @@ require (
 	golang.org/x/lint v0.0.0-20191125180803-fdd1cda4f05f // indirect
 	golang.org/x/tools v0.0.0-20191205225056-3393d29bb9fe // indirect
 )
+
+replace stash.kopano.io/kc/konnect => github.com/IljaN/konnect v0.29.0-alpha
